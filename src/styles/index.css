@@ -9,10 +9,22 @@
 }
 .circleRed {
     height: 8em;
+
 }
 .circleYellow {
     height: 8em;
+
 }
 .circleGreen{
     height: 8em;
+   
+}
+.brillante1 {
+    box-shadow: 0px 0px 50px 15px #ff2807;
+}
+.brillante2 {
+    box-shadow: 0px 0px 50px 15px #ffc107;
+}
+.brillante3 {
+    box-shadow: 0px 0px 50px 15px #006f18;
 }
