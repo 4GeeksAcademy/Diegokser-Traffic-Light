@@ -3,12 +3,12 @@ import TrafficLight from "./TrafficLight.js";
 
 //create your first component
 const Home = () => {
-	const [ligth, setLight] = useState("circleRed")
+	const [light, setLight] = useState("")
 
 
 	return (
 		<div className="text-center">
-			<TrafficLight setLight={setLight}/>
+			<TrafficLight selectedLight={setLight} light={light} />
 		</div>
 	);
 };
