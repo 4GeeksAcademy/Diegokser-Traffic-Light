@@ -8,7 +8,7 @@ const Home = () => {
 
 	return (
 		<div className="text-center">
-			<TrafficLight selectedLight={setLight} light={light} />
+			<TrafficLight selectedLight={setLight} selectedColor={light} />
 		</div>
 	);
 };
